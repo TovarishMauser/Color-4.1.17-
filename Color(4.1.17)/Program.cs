@@ -4,7 +4,7 @@ class MainClass
 {
 	public static void Main(string[] args)
 	{
-		Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
+		Console.WriteLine("Напишите свой любимый цвет на английском c маленькой буквы");
 
 		var color = Console.ReadLine();
 

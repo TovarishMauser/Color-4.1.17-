@@ -2,7 +2,7 @@
 
 class MainClass
 {    
-    static string ShowColor(string name)
+    static string ShowColor(string name, params string[] favcolors)
     {
         Console.WriteLine(name + " Напишите свой любимый цвет на английском с маленькой буквы");
         var color = Console.ReadLine();
